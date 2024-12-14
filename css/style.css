@@ -1,0 +1,78 @@
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 120px;
+  height: 20px;
+  background:
+   linear-gradient(#000 0 0) left/20px 20px no-repeat
+   #ddd;
+  animation: l1 1s infinite linear;
+}
+@keyframes l1 {
+    50% {background-position: right }
+}
+
+
+
+nav img {
+  width: 100%;
+}
+
+nav a {
+  color: white !important;
+}
+
+
+.search {
+  position: absolute !important;
+  top: 5px;
+  bottom: 5px;
+  right: 5px;
+  z-index: 7 !important;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.weather {
+  background-image: url(../images/banner.png);
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.active {
+  border: white !important;
+  padding: 10px;
+}
+
+.card {
+  margin-bottom: -200px;
+  color: white;
+}
+
+.first,
+.end {
+  background-color: #323544;
+}
+
+footer {
+  margin-top: 200px;
+  color: white;
+}
+
+::placeholder {
+  color: white !important; /* Change the color to desired value */
+}
+
+input {
+  color: white !important;
+}
+
+.weather input {
+    border: #323544;
+}
+
+.conditionText {
+  color: #208ED8;
+}

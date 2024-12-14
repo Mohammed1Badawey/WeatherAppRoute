@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- ======== Font Awesome ========= -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
+    />
+  </head>
+
+  <body class="bg-dark">
+    <main class="mt-0 pb-5">
+      <nav class="navbar navbar-expand-md bg-dark">
+        <div class="container">
+          <a
+            href="#"
+            class="navbar-brand w-25 d-flex align-baseline justify-content-around"
+          >
+            <div class="w-25">
+              <img src="images/logo2x.png" alt="" class="d-inline-block" />
+            </div>
+            <div class="w-50 align-baseline">
+              <h1 class="h4 d-inline">Weather</h1>
+              <p class="d-block">tagline goes here</p>
+            </div>
+          </a>
+
+          <button
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            class="navbar-toggler"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link btn-outline-primary">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">News</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="weather mt-0">
+        <div
+          class="container d-flex row justify-content-center align-content-center m-auto mt-0"
+        >
+          <form class="py-4 myForm">
+            <div class="input-group m-auto">
+              <input
+                type="text"
+                class="form-control rounded-5 p-3 bg-dark search-city"
+                placeholder="Search City"
+              />
+              <button
+                class="btn search position-absolute btn-primary rounded-5"
+              >
+                Search
+              </button>
+            </div>
+          </form>
+
+          <div class="mb-5 d-flex justify-content-center displayD">
+
+            <div class="loader"></div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+
+     <div class="container">
+      <div class="d-flex justify-content-around align-baseline">
+
+      <div>
+      <form class="py-4">
+        <div class="input-group m-auto">
+          <input
+            type="text"
+            class="form-control rounded-5 p-3 bg-dark"
+            placeholder="Enter your email to subscribe..."
+          />
+          <button
+            class="btn search position-absolute btn-primary rounded-5"
+          >
+            Subscribe
+          </button>
+        </div>
+      </form>
+
+      <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+     
+    </div>
+
+
+     <div class=" d-flex flex-column justify-content-center ">
+      <div class="d-flex justify-content-between ">
+        <a href="#" class="p-3 fs-4"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="p-3 fs-4"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="p-3 fs-4"><i class="fa-brands fa-google-plus"></i></a>
+        <a href="#" class="p-3 fs-4"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+    </div>
+
+  </div>
+    </footer>
+
+
+    <!-- ======== JS Bootstrap - main ======== -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
