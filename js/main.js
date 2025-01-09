@@ -81,7 +81,7 @@ let monthsList = [
 
 async function getDegree(cityLink = "cairo") {
   const api = await fetch(
-    ` http://api.weatherapi.com/v1/forecast.json?key=4da445371801446f8b9155946241212&q=${cityLink}&days=3`
+    ` https://api.weatherapi.com/v1/forecast.json?key=4da445371801446f8b9155946241212&q=${cityLink}&days=3`
   );
   allDataFromApi = await api.json();
   weatherDay = allDataFromApi.forecast.forecastday;
