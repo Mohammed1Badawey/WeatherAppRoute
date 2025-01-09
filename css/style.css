@@ -1,16 +1,24 @@
 /* HTML: <div class="loader"></div> */
 /* HTML: <div class="loader"></div> */
 .loader {
-  width: 120px;
-  height: 20px;
-  background:
-   linear-gradient(#000 0 0) left/20px 20px no-repeat
-   #ddd;
-  animation: l1 1s infinite linear;
-}
-@keyframes l1 {
-    50% {background-position: right }
-}
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: #FF3D00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
 
 
 

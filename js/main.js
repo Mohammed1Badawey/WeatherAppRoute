@@ -40,11 +40,6 @@ let afterTomorrowConditionIcon;
 let curLocLat;
 let curLocLong;
 
-navigator.geolocation.getCurrentPosition(function (loc) {
-  let curLocLat = loc.coords.latitude;
-  let curLocLong = loc.coords.longitude;
-  getDegree(`${curLocLat},${curLocLong}`);
-});
 
 //=======================
 
