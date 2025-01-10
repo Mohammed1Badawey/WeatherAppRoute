@@ -166,7 +166,7 @@ function returnCartona() {
               </div>
             </div>
 
-            <div class="card mt-5 bg-dark" style="width: 25rem">
+            <div class="card mt-5 bg-dark tomorrow" style="width: 25rem">
               <div class="card-header text-center">
                 <span>${tomorrowDayName}</span>
               </div>

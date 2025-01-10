@@ -3,24 +3,22 @@
 .loader {
   width: 48px;
   height: 48px;
-  border: 5px solid #FFF;
-  border-bottom-color: #FF3D00;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
-  }
+}
 
-  @keyframes rotation {
+@keyframes rotation {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
-  } 
-
-
+}
 
 nav img {
   width: 100%;
@@ -29,7 +27,6 @@ nav img {
 nav a {
   color: white !important;
 }
-
 
 .search {
   position: absolute !important;
@@ -42,12 +39,10 @@ nav a {
 }
 
 .weather {
-  background-image: url(../images/banner.png);
-  /* background-position: center center; */
+  background-image: url(../images/banner1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .active {
   border: white !important;
@@ -55,7 +50,6 @@ nav a {
 }
 
 .card {
-  margin-bottom: -200px;
   color: white;
 }
 
@@ -65,12 +59,11 @@ nav a {
 }
 
 footer {
-  margin-top: 200px;
   color: white;
 }
 
-::placeholder {
-  color: white !important; /* Change the color to desired value */
+footer ::placeholder {
+  color: white !important;
 }
 
 input {
@@ -78,9 +71,22 @@ input {
 }
 
 .weather input {
-    border: #323544;
+  border: #323544;
 }
 
 .conditionText {
-  color: #208ED8;
+  color: #208ed8;
+}
+
+@media screen and (max-width: 768px) {
+  .end,
+  .tomorrow {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .tomorrow {
+    display: none;
+  }
 }
