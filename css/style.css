@@ -79,14 +79,17 @@ input {
 }
 
 @media screen and (max-width: 768px) {
-  .end,
-  .tomorrow {
+  .card {
+    width: 100% !important;
+    margin: 1rem 0;
+  }
+  .end {
     display: none;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .tomorrow {
-    display: none;
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .card {
+    width: 20rem !important;
   }
 }
